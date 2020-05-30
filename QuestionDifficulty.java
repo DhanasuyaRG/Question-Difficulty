@@ -142,7 +142,7 @@ public class QuestionDifficulty {
         myReader.nextLine();
         String data = myReader.nextLine();
         String input[]=data.split(",");
-        System.out.println(data);
+     
         HashMap<String,ArrayList> hm=new HashMap<>();
         ArrayList<Double> dummy_one=new ArrayList<>();
         ArrayList<Integer> dummy_two=new ArrayList<>();
